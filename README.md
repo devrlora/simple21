@@ -8,7 +8,8 @@
 * The game ends after 5 rounds.
 * The player who wins best 3 out of 5 rounds wins.
 
-Wireframes:
+## Wireframes:
+
 ![alt text](https://github.com/devrlora/simple21.github/blob/master/assets/game_wireframe.png "Logo Title Text 1")
 
 
