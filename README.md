@@ -1,3 +1,7 @@
+![alt text](https://github.com/devrlora/simple21.github/blob/master/assets/game_wireframe.png "Logo Title Text 1")
+
+
+
 Explanation of process:
 First establish scope of game:
 
