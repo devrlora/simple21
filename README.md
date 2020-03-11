@@ -22,7 +22,6 @@ Create app repo and push app assets
 #### Thursday:
 #### Friday:
 #### Saturday:
-#### Saturday:
 #### Sunday:
 #### Monday:
 
