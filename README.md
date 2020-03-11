@@ -1,5 +1,6 @@
 # Simple21 Game
 
+
 ## Rules:
 * Human player vs computer.
 * Press "click to play" button to generate a random number for each player.
@@ -13,5 +14,15 @@
 ![alt text](https://github.com/devrlora/simple21.github/blob/master/assets/game_wireframe.png "Logo Title Text 1")
 
 
-
+## Timeframe:
+#### Tuesday: 
+Create wireframe for app
+#### Wednesday: 
+Create app repo and push app assets
+#### Thursday:
+#### Friday:
+#### Saturday:
+#### Saturday:
+#### Sunday:
+#### Monday:
 
