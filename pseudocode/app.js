@@ -6,7 +6,7 @@
 
 /************************ Generate players' random numbers bet. 1-21 ************************/
 
-function allNum(0) {
+function allNum() {
     let play1 = Math.floor(Math.random() * (21) + 1);
     console.log(play1);
 
@@ -23,19 +23,19 @@ allNum();
 /************************ Write conditional based on higher number, displaying 
  * message if player wins or loses round ************************/
 
-function whoWon() {
- if (play1 > play2) {
-    console.log('You Win!');
-} else if (play1 < play2) {
-    console.log('Dealer Wins!');
-} else {
-    console.log('Draw!')
-};
-    document.getElementById("playerName").innerHTML = play1;
-    document.getElementById("playerName").innerHTML = play2;
-}
+// function whoWon() {
+//  if (play1 > play2) {
+//     console.log('You Win!');
+// } else if (play1 < play2) {
+//     console.log('Dealer Wins!');
+// } else {
+//     console.log('Draw!')
+// };
+//     document.getElementById("playerName").innerHTML = play1;
+//     document.getElementById("playerName").innerHTML = play2;
+// }
 
-whoWon();
+// whoWon();
 
 
 
