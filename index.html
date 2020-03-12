@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
 
 
+    <div id="topContainer">
+        <div id="randomNum1">
+            <div class="numLeft" img src="/assets/images/playingCardBorder.png">21</div>
 
-<form id="result">Rounds Won:</form>
-<form id="result">Rounds Won:</form>
+        </div>
+        <div id="siteTopText">
+            <h1>Round </h1>
+            <h1 id="numRound">~Number of Round~</h1>
+            <h1>Of 5</h1>
+        </div>
 
+        <div id="randomNum2">
+            <div class="numRight" img src="/assets/images/playingCardBorder.png">21</div>
+        </div>
+    </div>
+
+    
+    <div id="startButton">
+        <button class="clickPlay" type="button" onclick="">Click To Play</button>
+    </div>
+
+    <div id="resultBoxes">
+        <form class="resultLeft">Rounds Won:</form>
+        <form class="resultRight">Rounds Won:</form>
+    </div>
 
     <script src="app.js"></script>
 </body>
+
 </html>

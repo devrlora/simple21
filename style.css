@@ -1,13 +1,100 @@
-body{
+body {
     background-image: url("images/pokerTable.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#resultBoxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    color: #ff0000;
+}
+
+
+body {
+    background-image: url("/assets/images/pokerTable.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#result{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#randomNum1,
+#randomNum2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
     font-size: x-large;
-    color: red;
+    margin: auto;
+    color: black;
+    background-color: white;
+    background-image: url("/assets/images/playingCardBorder.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    font-size: 400%;
+    font-family: 'Asset', cursive;
+}
+
+#siteTopText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 33%;
+}
+
+#resultBoxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+    color: #ff0000;
+}
+
+#startButton {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+}
+
+.clickPlay {
+    border-radius: 12px;
+    background: #e6f0a3;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6f0a3', endColorstr='#dbf043', GradientType=0);
+    /* IE6-9 */
+    font-size: 20px;
+    padding: 12px 28px;
+    font-family: 'Asset', cursive;
+}
+
+.clickPlay:hover,
+.clickPlay:focus,
+.clickPlay:active {
+    transform: scale(1.1);
 }
