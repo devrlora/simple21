@@ -1,6 +1,15 @@
 /********************** Create welcome screen and explain rules of game *********************/
-
-
+function greeting() {
+        alert("Welcome to Simple 21! Which ever player gets a number closer to 21 wins the round. Best 3 out of 5 rounds wins. To start click OK then "+ document.getElementById("body").innerText);
+    };
+    // alert("Which ever player gets a number closer to 21 wins the round.Best 3 out of 5 rounds wins.");
+    // };
+   
+    // function bodyLoad() {
+        // alert("alert from body onload");
+        // alert("content from d1: " + document.getElementById("d1").innerText);
+    // }
+    
 
 
 
@@ -14,7 +23,6 @@ console.log(play1);
 let play2 =
     Math.floor(Math.random() * (21) + 1);
 console.log(play2);
-
 
 /************************ Write conditional based on higher number, displaying 
  * message if player wins or loses round ************************/
