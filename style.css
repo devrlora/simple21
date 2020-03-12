@@ -1,11 +1,10 @@
 body {
-    background-image: url("images/pokerTable.jpg");
+    background-image: url("/assets/images/pokerTable.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
 #topContainer {
@@ -22,15 +21,6 @@ body {
     align-items: center;
     font-size: x-large;
     color: #ff0000;
-}
-
-
-body {
-    background-image: url("/assets/images/pokerTable.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #randomNum1,
@@ -67,6 +57,7 @@ body {
     align-items: center;
     font-size: x-large;
     color: #ff0000;
+    border-color: black;
 }
 
 #startButton {
