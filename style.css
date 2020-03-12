@@ -14,6 +14,13 @@ body {
     align-items: center;
     padding-top: 50px;
 }
+#bottomContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
 
 #resultBoxes {
     display: flex;
@@ -21,6 +28,19 @@ body {
     align-items: center;
     font-size: x-large;
     color: #ff0000;
+}
+.resultLeft{
+    padding-left:100px;
+}
+.resultRight{
+    padding-right:100px;
+}
+
+#displayWinner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 #randomNum1,
@@ -51,7 +71,7 @@ body {
     width: 33%;
 }
 
-#resultBoxes {
+#resultBoxLeft, #resultBoxRight {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,4 +108,9 @@ body {
 .clickPlay:focus,
 .clickPlay:active {
     transform: scale(1.1);
+}
+
+#numRound{
+    color: black;
+    align-items: center;
 }

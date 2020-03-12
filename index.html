@@ -9,34 +9,49 @@
 </head>
 
 <body>
+
     <body onload="greeting()">
-    <div id="topContainer">
-        <div id="randomNum1">
-            <div class="numLeft" >21</div>
+        <div id="topContainer">
+            <div id="randomNum1">
+                <div id="numLeft"></div>
+            </div>
+
+            <div id="siteTopText">
+                <h1>Round </h1>
+                <h1 id="numRound">~Number of Round~</h1>
+                <h1>Of 5</h1>
+            </div>
+
+            <div id="randomNum2">
+                <div id="numRight"></div>
+            </div>
         </div>
-        
-        <div id="siteTopText">
-            <h1>Round </h1>
-            <h1 id="numRound">~Number of Round~</h1>
-            <h1>Of 5</h1>
+
+
+        <div id="startButton">
+            <button class="clickPlay" type="button" onclick= "allNum()">Click To Play</button>
         </div>
 
-        <div id="randomNum2">
-            <div class="numRight">21</div>
+
+        <div id="bottomContainer">
+            <div id="resultBoxLeft">
+                <form class="resultLeft">Rounds You've Won:</form>
+            </div>
+
+            <div id="displayWinner">
+                <h2>Player</h2>
+                <h2 id="playerName"></h1>
+                    <h2>Wins!</h2>
+            </div>
+
+            <div id="resultBoxRight">
+                <form class="resultRight">Rounds Dealer Won:</form>
+            </div>
         </div>
-    </div>
 
 
-    <div id="startButton">
-        <button class="clickPlay" type="button" onclick="">Click To Play</button>
-    </div>
 
-    <div id="resultBoxes">
-        <form class="resultLeft">Rounds You've Won:</form>
-        <form class="resultRight">Rounds Dealer Won:</form>
-    </div>
-
-    <script src="app.js"></script>
-</body>
+        <script src="app.js"></script>
+    </body>
 
 </html>
