@@ -8,6 +8,7 @@
 * Which ever player gets a number closer to 21 wins the round.
 * The game ends after 5 rounds.
 * The player who wins best 3 out of 5 rounds wins.
+* Press the 'restart' button to clear the score and start a new game.
 
 ## Wireframe:
 
@@ -16,10 +17,11 @@
 
 ## Timeframe:
 #### Tuesday: 
-Create wireframe for app
+Create wire frame for app
 #### Wednesday: 
-Create app repo and push app assets
+Create app repo,create html layout, style CSS, push app assets to github
 #### Thursday:
+Create reset and "Rounds won" buttons, complete CSS
 #### Friday:
 #### Saturday:
 #### Sunday:
