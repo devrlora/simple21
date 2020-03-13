@@ -22,8 +22,8 @@ function newNum() {
     console.log(i+ "aaabbbccc")
     document.getElementById("numRound").innerHTML = i;
 };
+/* Calls function to display the random numbers into html when button is pressed */
 
-/* Call function to display the random numbers into html */
 //newNum();
 
 
@@ -125,8 +125,16 @@ function outCome() {
 
 /******************* create end of game after 5 rounds ********************* */
 
-// function endGame() {
-//     let outCome = 0;
+// 
+   
+function endGame() {
+    let gameOver = "Game Over";
+    if (numRound >=5) {
+        document.getElementById("displayCount").innerHTML = gameOver;
+    }
+    endGame();
+
+
 //     let rNum = document.getElementById("resultLeft"),
 //         count = 0;
 //     while (rNum < 5) {
@@ -140,3 +148,5 @@ function outCome() {
 // if(outCome=)
 
 /******************* Create reset button functionality ********************* */
+/* added <button id="clickPlay" to reload page when clicked */
+
