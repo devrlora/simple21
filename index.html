@@ -18,7 +18,7 @@
 
             <div id="siteTopText">
                 <h1>Round </h1>
-                <h1 id="numRound">~Number of Round~</h1>
+                <div id="numRound">0</div>
                 <h1>Of 5</h1>
             </div>
 
@@ -29,23 +29,23 @@
 
 
         <div id="startButton">
-            <button class="clickPlay" type="button" onclick= "allNum()">Click To Play</button>
+            <button id="clickPlay" type="button" value="Count" onclick="newNum()">Click To Play</button>
         </div>
 
 
         <div id="bottomContainer">
             <div id="resultBoxLeft">
-                <div id="resultLeft">Rounds You Won:</div>
+                <div id="resultLeft"> You Won:<span id="displayCount">0</span> Rounds</div>
+                
             </div>
 
             <div id="displayWinner">
-                <!-- <h2>Player</h2> -->
-                <h2 id="playerName"></h1>
-                    <!-- <h2>Wins!</h2> -->
+                <h2 id="playerName">
+                    </h1>
             </div>
 
             <div id="resultBoxRight">
-                <div id="resultRight">Rounds Dealer Won:</div>
+                <div id="resultRight">Dealer Won:<span id="displayCount">0</span> Rounds</div>
             </div>
         </div>
 
