@@ -89,7 +89,7 @@ font-size: larger;
     border: none;
 }
 
-.clickPlay {
+#clickPlay {
     border-radius: 12px;
     background: #e6f0a3;
     /* Old browsers */
