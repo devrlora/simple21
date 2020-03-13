@@ -23,7 +23,7 @@ function newNum() {
     secNum = play2;
     i++
     outCome()
-    console.log(i+ "aaabbbccc")
+    console.log(i)
     document.getElementById("numRound").innerHTML = i;
     if (i==5){
         document.getElementById("endTheGame").innerHTML = "Game Over";
@@ -35,6 +35,10 @@ function newNum() {
     } else if(play1<play2){
         compWon++
         document.getElementById("displayCount2").innerHTML = compWon;
+    }
+        if (i==5){
+        document.getElementById("playerName").innerHTML = "";
+        clickPlay.style.display = "none";
     }
 };
 /* Calls function to display the random numbers into html when button is pressed */
