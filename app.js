@@ -8,6 +8,10 @@ function greeting() {
 // let play1 = 0;
 // let play2 = 0;
 let i=0;
+let gameOver = "Game Over";
+let playerWon = 0;
+let compWon = 0;
+    
 function newNum() {
     let play1 = Math.floor(Math.random() * (21) + 1);
     console.log(play1);
@@ -21,6 +25,17 @@ function newNum() {
     outCome()
     console.log(i+ "aaabbbccc")
     document.getElementById("numRound").innerHTML = i;
+    if (i==5){
+        document.getElementById("endTheGame").innerHTML = "Game Over";
+        clickPlay.style.display = "none";
+    };
+    if (play1>play2){
+        playerWon++
+        document.getElementById("displayCount1").innerHTML = playerWon;
+    } else if(play1<play2){
+        compWon++
+        document.getElementById("displayCount2").innerHTML = compWon;
+    }
 };
 /* Calls function to display the random numbers into html when button is pressed */
 
@@ -127,12 +142,7 @@ function outCome() {
 
 
    
-function endGame() {
-    let gameOver = "Game Over";
-    if (numRound >=5) {
-        document.getElementById("displayCount").innerHTML = gameOver;
-    }
-    endGame();
+
 
 
 //     let rNum = document.getElementById("resultLeft"),
