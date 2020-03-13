@@ -29,10 +29,10 @@ body {
     font-size: x-large;
     color: #ff0000;
 }
-.resultLeft{
+#resultLeft{
     padding-left:100px;
 }
-.resultRight{
+#resultRight{
     padding-right:100px;
 }
 
