@@ -125,7 +125,7 @@ function outCome() {
 
 /******************* create end of game after 5 rounds ********************* */
 
-// 
+
    
 function endGame() {
     let gameOver = "Game Over";
