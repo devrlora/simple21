@@ -29,9 +29,9 @@ newNum();
  * message if player wins or loses round ************************/
 
 function outCome() {
-    let iWon = "Human";
-    let iLost = "Dealer";
-    let noWin = "Draw";
+    let iWon = "You Win!";
+    let iLost = "Dealer Wins!";
+    let noWin = "Draw!";
 
     if (firstNum > secNum) {
         document.getElementById("playerName").innerHTML = iWon;
