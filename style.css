@@ -38,7 +38,8 @@ body {
 
 #displayWinner{
 display: flex; 
-width: 33%;
+/* width: 150px; */
+flex-direction: column;
 justify-content: center;
 padding-top: 20px;
 padding-left: 30px ;
@@ -90,6 +91,30 @@ font-size: larger;
     justify-content: center;
     align-items: flex-end;
     border: none;
+}
+#restartButton{
+width:150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: none;
+    /* position: relative; */
+    border-radius: 12px;
+    background: #e6f0a3;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e6f0a3 0%, #d2e638 50%, #c3d825 51%, #dbf043 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6f0a3', endColorstr='#dbf043', GradientType=0);
+    /* IE6-9 */
+    font-size: 20px;
+    /* padding: 12px 28px; */
+    font-family: 'Asset', cursive;
 }
 
 #clickPlay {
