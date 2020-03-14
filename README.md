@@ -23,7 +23,6 @@ Create app repo,create html layout, style CSS, push app assets to github
 #### Thursday:
 Create reset and "Rounds won" buttons, complete CSS
 #### Friday:
-#### Saturday:
-#### Sunday:
-#### Monday:
+Finished CSS, all HTML elements and coding JS for all functions.
+
 
