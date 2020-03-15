@@ -30,9 +30,9 @@ function newNum() {
 
     /* Assign variable (i) as a counter for round number */
 
-    i++
-    outCome()
-    console.log(i)
+    i++;
+    outCome();
+    console.log(i);
     document.getElementById("numRound").innerHTML = i;
 
     /* Limit game to 5 rounds, display message when game has ended,
