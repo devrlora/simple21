@@ -1,6 +1,5 @@
 # Simple21 Game
 
-
 ## Rules:
 * Human player vs computer.
 * Press "click to play" button to generate a random number for each player.
@@ -26,3 +25,4 @@ Create reset and "Rounds won" buttons, complete CSS
 Finished CSS, all HTML elements and coding JS for all functions.
 
 
+#### Link: https://devrlora.github.io/
