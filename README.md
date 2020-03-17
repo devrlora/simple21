@@ -9,6 +9,12 @@
 * The player who wins best 3 out of 5 rounds wins.
 * Press the 'restart' button to clear the score and start a new game.
 
+## Front-End:
+* HTML
+* CSS
+* Javascript
+
+
 ## Wireframe:
 
 ![alt text](https://github.com/devrlora/simple21.github/blob/master/assets/game_wireframe.png "Logo Title Text 1")
